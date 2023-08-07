@@ -27,6 +27,9 @@ Drone.create(drones)
 
 
  //Paso "opcional" de la iteracion 1, aprender a cerrar una conexion
-  mongoose.disconnect("mongodb://127.0.0.1:27017/lab-express-drones")
+  
 
 module.exports = Drone;
+
+
+// mongoose.disconnect("mongodb://127.0.0.1:27017/lab-express-drones")
