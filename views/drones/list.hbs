@@ -1,12 +1,17 @@
 
 <div>
-<h2>Available drones</h2>
+<h1>Available drones</h1>
 {{#each this.name}}  
 {{!-- ?POR QUE FUNCIONA --}}
 <h3>{{this.name}} </h3>
-<h3>{{this.propellers}} </h3>
-<h3>{{this.maxSpeed}} </h3>
+<h2>{{this.propellers}} </h2>
+<h2>{{this.maxSpeed}} </h2>
+
+<div id="buttons">
+<a href="/drones/{{this._id}}/edit">To edit a drone</a>
+ <form action="/drones/{{this._id}}/delete" method="post"><button>Delete</button></form> 
 <br>
+
 
 {{/each}}
 

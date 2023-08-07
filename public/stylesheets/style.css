@@ -1,8 +1,47 @@
 body {
   padding: 50px;
   font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+  background-color: rgb(255, 112, 136);
+  text-align: center;
+  display:flex;
+  flex-flow: column center;
+  flex-wrap: wrap;
 }
 
 a {
   color: #00b7ff;
+  background-color: aliceblue;
+
+}
+
+br {
+  padding:10px;
+
+background-color: #00b7ff;
+}
+
+
+button {
+  color: #00b7ff;
+  background-color: rgb(169, 61, 79);
+  padding:10px;
+  border-radius: 25%;
+}
+
+h2 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(169, 61, 79);
+}
+
+h3 {
+  color: aliceblue;
+}
+
+a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#buttons {
+ 
+
 }
